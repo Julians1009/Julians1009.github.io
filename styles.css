@@ -19,11 +19,13 @@ header {
 
 header h1 {
     text-align: center;
+    margin: 0; /* Verwijder standaard marge */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    text-align: center; /* Center de navigatie-items */
 }
 
 nav ul li {
@@ -34,6 +36,11 @@ nav ul li {
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
+    transition: color 0.3s; /* Voeg een overgang toe voor hover-effect */
+}
+
+nav ul li a:hover {
+    color: #f4f4f4; /* Verander kleur bij hover */
 }
 
 main {
@@ -44,6 +51,20 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+h2, h3, h4 {
+    color: #35424a; /* Zorg voor een consistente kleur voor koppen */
+}
+
+article {
+    margin-bottom: 20px; /* Voeg ruimte toe tussen artikelen */
+}
+
+article img {
+    max-width: 100%; /* Zorg ervoor dat afbeeldingen responsief zijn */
+    height: auto; /* Houd de verhoudingen van de afbeelding */
+    border-radius: 5px; /* Voeg afgeronde hoeken toe aan afbeeldingen */
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
@@ -52,4 +73,15 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%; /* Maak de container smaller op kleinere schermen */
+    }
+
+    nav ul li {
+        display: block; /* Zet navigatie-items onder elkaar op kleine schermen */
+        margin: 10px 0; /* Voeg marge toe tussen items */
+    }
 }
