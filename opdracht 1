@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Details van Opdracht 1 van Julian Schimmel.">
+    <title>Opdracht 1 - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Opdracht 1</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over_mij.html">Over Mij</a></li>
+                    <li><a href="over_hockey.html">Over Hockey</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Project Titel</h2>
+        <p>Hier is een korte beschrijving van Opdracht 1. Dit project gaat over [beschrijving van het project].</p>
+
+        <section>
+            <h3>Doelstellingen</h3>
+            <ul>
+                <li>Doelstelling 1</li>
+                <li>Doelstelling 2</li>
+                <li>Doelstelling 3</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Uitvoering</h3>
+            <p>In deze sectie beschrijf je hoe je de opdracht hebt uitgevoerd. Dit kan informatie bevatten over de methoden, technieken en tools die je hebt gebruikt.</p>
+        </section>
+
+        <section>
+            <h3>Resultaten</h3>
+            <p>Hier bespreek je de resultaten van je opdracht. Wat heb je geleerd? Wat waren de belangrijkste bevindingen?</p>
+        </section>
+
+        <section>
+            <h3>Conclusie</h3>
+            <p>Geef een korte conclusie over wat je hebt bereikt met deze opdracht en eventuele toekomstige stappen of verbeteringen.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Julian Schimmel</p>
+        </div>
+    </footer>
+</body>
+</html>
